@@ -1,0 +1,38 @@
+
+button{
+    width: 60px;
+    height: 60px;
+}
+/* input::placeholder{
+    padding-left: 96%;
+} */
+input{
+    height: 60px;
+}
+input:focus{
+    outline:transparent;
+    border-radius:transparent;
+}
+input::placeholder{
+    font-size: x-large;
+    text-align: right;
+}
+.card-title{
+background-color: #b9e2f5;	
+}
+.card-body{
+    background-color: 	#edf7fc;
+}
+#exampleInputEmail1{
+    background-color:	#e1e8ed;
+}
+.btn{
+ box-shadow:    0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ transition: 1s;
+}
+.btn:hover{
+  transform: scale(1.1);
+}
+.card{
+    box-shadow: 10px 10px 5px 12px gray;
+}
